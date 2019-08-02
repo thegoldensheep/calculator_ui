@@ -63,7 +63,7 @@ function mouseUp(element){
     
   }
 
-  if(document.getElementById("textbox".value.length > 10))
+
 }
 
   function textboxClear(){
@@ -92,7 +92,7 @@ function mouseUp(element){
         operandStack.push(removeLastChar());
       }else{
         let tempNum = "";
-        while("1234567890".includes(getLastChar())){
+        while("1234567890.".includes(getLastChar())){
           tempNum = String(removeLastChar())+ String(tempNum);
         }
   
