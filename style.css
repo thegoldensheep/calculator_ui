@@ -1,0 +1,107 @@
+#pageBody {
+  background-color: black;
+  margin: 0;
+}
+
+#header {
+  font-size: 3em;
+  color: white;
+  widtH: 100%;
+  text-align: center;
+  display:block;
+  font-family: arial;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#calculatorContainer{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+  width: 500px;
+  height: 675px;
+  margin: auto;
+  background-color: black;
+}
+
+#textbox {
+  cursor: none;
+  grid-column-start: 1; 
+  grid-column-end: 5; 
+  text-align: right;
+  font-size: 4vw;
+  margin: 0px 0px 0px 0px;
+  background-color: #3f2342;
+  color: white;
+  border: none;
+  z-index: 101;
+  outline: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#textbox :focus {
+  outline: none;
+  cursor: none;
+}
+
+#textbox :hover {
+  cursor: none;
+}
+
+#clearButton{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.button{
+  font-size:24px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1px 1px 1px 1px;
+  border: none;
+  opacity: 1;
+  transition: opacity 0.10s ease-out;
+  outline: none;
+}
+
+.button:hover{
+  cursor: pointer;
+  opacity: .95;
+  outline: none;
+}
+
+.button:focus {
+  opacity: .7;
+  transition: opacity 0.10s ease-out;
+  outline: none;
+  cursor: none;
+  }
+
+.number{
+  background-color: #74407D;
+  color: white;
+}
+
+.bottom {
+  background-color: #613569;
+  color: white;
+}
+
+.operand {
+  background-color: #EA80FC;
+  color: black;
+  font-size: 24px !important;
+}
+
+.top {
+  background-color: #79657D;
+  color: white;
+  font-size: 20px !important;
+}
+
+
+

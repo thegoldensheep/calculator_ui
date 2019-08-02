@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body id="pageBody">
+    <span id="header">Calculator</span>
+
+    <div id="calculatorContainer">
+      <input id="textbox" onmouseup="this.blur()" readonly="readonly" />
+
+      <button id="clearButton" class="button top" onmouseup="mouseUp(this)">clear</button>
+      <button id="backspaceButton" class="button top" onmouseup="mouseUp(this)">bksp</button>
+      <button id="divideButton" class="button operand" onmouseup="mouseUp(this)">÷</button>
+
+      <button id="sevenButton" class="button number" onmouseup="mouseUp(this)">7</button>
+      <button id="eightButton" class="button number" onmouseup="mouseUp(this)">8</button>
+      <button id="nineButton" class="button number" onmouseup="mouseUp(this)">9</button>
+      <button id="multiplyButton" class="button operand" onmouseup="mouseUp(this)">×</button>
+
+
+      <button id="fourButton" class="button number" onmouseup="mouseUp(this)">4</button>
+      <button id="fiveButton" class="button number" onmouseup="mouseUp(this)">5</button>
+      <button id="sixButton" class="button number" onmouseup="mouseUp(this)">6</button>
+      <button id="addButton" class="button operand" onmouseup="mouseUp(this)">+</button>
+
+
+      <button id="oneButton" class="button number" onmouseup="mouseUp(this)">1</button>
+      <button id="twoButton" class="button number" onmouseup="mouseUp(this)">2</button>
+      <button id="threeButton" class="button number" onmouseup="mouseUp(this)">3</button>
+      <button id="minusButton" class="button operand" onmouseup="mouseUp(this)">-</button>
+
+      <button id="inverseButton" class="button bottom" onmouseup="mouseUp(this)">-/+</button>
+      <button id="zeroButton" class="button number" onmouseup="mouseUp(this)">0</button>
+      <button id="decimalButton" class="button bottom" onmouseup="mouseUp(this)">.</button>
+      <button id="equalsButton" class="button operand" onmouseup="mouseUp(this)">=</button>
+    
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
